@@ -1,0 +1,107 @@
+.texto{
+
+  background-color: white;
+  color: #0162b3;
+  text-align: justify;
+  padding: 50px 80px;
+}
+
+.titulo{
+  position: absolute;
+  left: 0;
+  top: 88%;
+  width: 100%; 
+  text-align: center;
+ 
+  
+}
+
+.titulo button.card-t{
+  background-color: #f2faff;
+  text-transform: uppercase;
+  font: 16px "Lato", sans-serif;
+  padding: 18px;
+  letter-spacing: 5px;
+  color: #0162b3;
+}
+
+.btn{
+  left: 0;
+  bottom: 88%;
+  width: 100%; 
+  text-align: center;
+
+}
+
+.btn button.over{
+  background-color: #f2faff;
+  text-transform: uppercase;
+  font: 12px "Lato", sans-serif;
+  padding: 16px;
+  letter-spacing: 5px;
+  color: #0162b3;
+
+  /*display: flex;*/
+  margin-top: 8px;
+}
+
+
+h3{
+
+  text-transform: uppercase;
+  font-family: monospace;
+  font-size: 20px;
+  color: #111;
+  text-align: center;
+
+}
+
+p{
+
+  font-family: monospace;
+  font-size: 12px;
+  text-align: center;
+
+}
+
+body,html{
+
+  margin: 0;
+  font: 16px "Lato", sans-serif;
+  color: #777;
+  height: 100%;
+
+}
+
+/** Efeito Parallax **/
+
+.card1, .card2, .card3, .card4, .card5, .card6{
+  height: 100%;
+  opacity: 0.7;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  position: relative;
+
+}
+.card1{
+  background-image: url(artes/quemsoueu.jpg);
+}
+
+.card2{
+  background-image: url(artes/tempolivre.jpg);
+
+}
+.card3{
+  background-image: url(artes/noquesoubom.jpg);
+
+}
+
+.card4{
+  background-image: url(artes/nsoubom.jpg);
+
+}
+.card5{
+  background-image: url(artes/sobremim.jpg);
+}
